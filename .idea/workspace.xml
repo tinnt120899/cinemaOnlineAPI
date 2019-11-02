@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="73199e41-5a43-4333-9dd9-9b1a6b65bfcd" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1SK2tIKxCoLB4Y8wC4s0aaRM77D" />
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/example/cinemaonline/listgroup" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Project\cinemaonline\src\main\java\com\example\cinemaonline\listgroup" />
+      <recent name="E:\Project\cinemaonline\src\main\java\com\example\cinemaonline" />
+      <recent name="E:\Project\cinemaonline\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="CinemaonlineApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cinemaonline" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.cinemaonline.CinemaonlineApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="73199e41-5a43-4333-9dd9-9b1a6b65bfcd" name="Default Changelist" comment="" />
+      <created>1571298179888</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571298179888</updated>
+      <workItem from="1571298183563" duration="2803000" />
+      <workItem from="1571303521182" duration="1248000" />
+      <workItem from="1571365186547" duration="2085000" />
+      <workItem from="1571829193569" duration="68000" />
+      <workItem from="1571829357583" duration="898000" />
+      <workItem from="1572182739402" duration="1183000" />
+      <workItem from="1572255030389" duration="1210000" />
+      <workItem from="1572313127110" duration="3587000" />
+      <workItem from="1572351253334" duration="648000" />
+      <workItem from="1572399775299" duration="3093000" />
+      <workItem from="1572420917909" duration="2796000" />
+      <workItem from="1572432484434" duration="3986000" />
+      <workItem from="1572486286730" duration="3813000" />
+      <workItem from="1572502998872" duration="6274000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
