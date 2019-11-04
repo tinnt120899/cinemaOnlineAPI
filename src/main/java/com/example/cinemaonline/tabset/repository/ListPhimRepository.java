@@ -1,6 +1,7 @@
 package com.example.cinemaonline.tabset.repository;
 
 import com.example.cinemaonline.tabset.model.ListPhim;
+import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;
@@ -24,6 +25,11 @@ public class ListPhimRepository{
 
     public List<ListPhim> findAll() {
         return mongoTemplate.findAll(ListPhim.class);
+    }
+
+    public List<ListPhim> findById(String id) {
+        Query query= new Query().addCriteria(Criteria.where("_id").is(id));
+        return mongoTemplate.find(query, ListPhim.class);
     }
 
    

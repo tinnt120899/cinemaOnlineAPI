@@ -21,4 +21,9 @@ public class ListPhimServiceImpl implements IListPhimService {
     public List<ListPhim> findByNameRap(String routeName) {
         return listPhimRepository.findByNameRap(routeName);
     }
+
+    @Override
+    public List<ListPhim> findById(String id) {
+        return listPhimRepository.findById(id);
+    }
 }

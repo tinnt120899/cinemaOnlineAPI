@@ -11,4 +11,6 @@ public interface IListPhimService {
     List<ListPhim> getListPhimDangChieu();
 
     List<ListPhim> findByNameRap(String routeName);
+
+    List<ListPhim> findById(String id);
 }

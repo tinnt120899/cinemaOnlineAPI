@@ -26,4 +26,9 @@ public class ListPhimController {
     List<ListPhim> getLichChieu(@PathVariable String routeName){
         return  iListPhimService.findByNameRap(routeName);
     }
+
+    @GetMapping("thongtinphim/{_id}")
+    List<ListPhim> getThongTinPhim(@PathVariable String _id){
+        return  iListPhimService.findById(_id);
+    }
 }

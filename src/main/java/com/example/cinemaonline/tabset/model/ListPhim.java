@@ -15,11 +15,17 @@ public class ListPhim {
     private String trangThai;
     private String routeName;
     private String suatChieu;
+    private String ngayPhatHanh;
+    private String daoDien;
+    private String dienVien;
+    private String theLoai;
+    private String quocGiaSx;
+    private String linkTrailer;
 
     public ListPhim() {
     }
 
-    public ListPhim(ObjectId _id, String tenPhim, String thoiLuongChieu, String srcImageSm, String srcImageMd, String trangThai, String routeName, String suatChieu) {
+    public ListPhim(ObjectId _id, String tenPhim, String thoiLuongChieu, String srcImageSm, String srcImageMd, String trangThai, String routeName, String suatChieu, String ngayPhatHanh, String daoDien, String dienVien, String theLoai, String quocGiaSx, String linkTrailer) {
         this._id = _id;
         this.tenPhim = tenPhim;
         this.thoiLuongChieu = thoiLuongChieu;
@@ -28,6 +34,12 @@ public class ListPhim {
         this.trangThai = trangThai;
         this.routeName = routeName;
         this.suatChieu = suatChieu;
+        this.ngayPhatHanh = ngayPhatHanh;
+        this.daoDien = daoDien;
+        this.dienVien = dienVien;
+        this.theLoai = theLoai;
+        this.quocGiaSx = quocGiaSx;
+        this.linkTrailer = linkTrailer;
     }
 
     public String get_id() {
@@ -92,5 +104,53 @@ public class ListPhim {
 
     public void setSuatChieu(String suatChieu) {
         this.suatChieu = suatChieu;
+    }
+
+    public String getNgayPhatHanh() {
+        return ngayPhatHanh;
+    }
+
+    public void setNgayPhatHanh(String ngayPhatHanh) {
+        this.ngayPhatHanh = ngayPhatHanh;
+    }
+
+    public String getDaoDien() {
+        return daoDien;
+    }
+
+    public void setDaoDien(String daoDien) {
+        this.daoDien = daoDien;
+    }
+
+    public String getDienVien() {
+        return dienVien;
+    }
+
+    public void setDienVien(String dienVien) {
+        this.dienVien = dienVien;
+    }
+
+    public String getTheLoai() {
+        return theLoai;
+    }
+
+    public void setTheLoai(String theLoai) {
+        this.theLoai = theLoai;
+    }
+
+    public String getQuocGiaSx() {
+        return quocGiaSx;
+    }
+
+    public void setQuocGiaSx(String quocGiaSx) {
+        this.quocGiaSx = quocGiaSx;
+    }
+
+    public String getLinkTrailer() {
+        return linkTrailer;
+    }
+
+    public void setLinkTrailer(String linkTrailer) {
+        this.linkTrailer = linkTrailer;
     }
 }
