@@ -20,12 +20,13 @@ public class ListPhim {
     private String dienVien;
     private String theLoai;
     private String quocGiaSx;
+    private String noiDung;
     private String linkTrailer;
 
     public ListPhim() {
     }
 
-    public ListPhim(ObjectId _id, String tenPhim, String thoiLuongChieu, String srcImageSm, String srcImageMd, String trangThai, String routeName, String suatChieu, String ngayPhatHanh, String daoDien, String dienVien, String theLoai, String quocGiaSx, String linkTrailer) {
+    public ListPhim(ObjectId _id, String tenPhim, String thoiLuongChieu, String srcImageSm, String srcImageMd, String trangThai, String routeName, String suatChieu, String ngayPhatHanh, String daoDien, String dienVien, String theLoai, String quocGiaSx, String noiDung, String linkTrailer) {
         this._id = _id;
         this.tenPhim = tenPhim;
         this.thoiLuongChieu = thoiLuongChieu;
@@ -39,6 +40,7 @@ public class ListPhim {
         this.dienVien = dienVien;
         this.theLoai = theLoai;
         this.quocGiaSx = quocGiaSx;
+        this.noiDung = noiDung;
         this.linkTrailer = linkTrailer;
     }
 
@@ -144,6 +146,14 @@ public class ListPhim {
 
     public void setQuocGiaSx(String quocGiaSx) {
         this.quocGiaSx = quocGiaSx;
+    }
+
+    public String getNoiDung() {
+        return noiDung;
+    }
+
+    public void setNoiDung(String noiDung) {
+        this.noiDung = noiDung;
     }
 
     public String getLinkTrailer() {
