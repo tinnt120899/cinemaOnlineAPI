@@ -4,6 +4,8 @@ import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+import java.util.ArrayList;
+
 @Document("ListPhim")
 public class ListPhim {
     @Id
@@ -14,7 +16,7 @@ public class ListPhim {
     private String srcImageMd;
     private String trangThai;
     private String routeName;
-    private String suatChieu;
+    private ArrayList<String> suatChieu;
     private String ngayPhatHanh;
     private String daoDien;
     private String dienVien;
@@ -22,11 +24,12 @@ public class ListPhim {
     private String quocGiaSx;
     private String noiDung;
     private String linkTrailer;
+    private String tinhThanh;
 
     public ListPhim() {
     }
 
-    public ListPhim(ObjectId _id, String tenPhim, String thoiLuongChieu, String srcImageSm, String srcImageMd, String trangThai, String routeName, String suatChieu, String ngayPhatHanh, String daoDien, String dienVien, String theLoai, String quocGiaSx, String noiDung, String linkTrailer) {
+    public ListPhim(ObjectId _id, String tenPhim, String thoiLuongChieu, String srcImageSm, String srcImageMd, String trangThai, String routeName, ArrayList<String> suatChieu, String ngayPhatHanh, String daoDien, String dienVien, String theLoai, String quocGiaSx, String noiDung, String linkTrailer, String tinhThanh) {
         this._id = _id;
         this.tenPhim = tenPhim;
         this.thoiLuongChieu = thoiLuongChieu;
@@ -42,6 +45,7 @@ public class ListPhim {
         this.quocGiaSx = quocGiaSx;
         this.noiDung = noiDung;
         this.linkTrailer = linkTrailer;
+        this.tinhThanh = tinhThanh;
     }
 
     public String get_id() {
@@ -100,11 +104,11 @@ public class ListPhim {
         this.routeName = routeName;
     }
 
-    public String getSuatChieu() {
+    public ArrayList<String> getSuatChieu() {
         return suatChieu;
     }
 
-    public void setSuatChieu(String suatChieu) {
+    public void setSuatChieu(ArrayList<String> suatChieu) {
         this.suatChieu = suatChieu;
     }
 
@@ -162,5 +166,13 @@ public class ListPhim {
 
     public void setLinkTrailer(String linkTrailer) {
         this.linkTrailer = linkTrailer;
+    }
+
+    public String getTinhThanh() {
+        return tinhThanh;
+    }
+
+    public void setTinhThanh(String tinhThanh) {
+        this.tinhThanh = tinhThanh;
     }
 }

@@ -31,4 +31,9 @@ public class ListPhimController {
     List<ListPhim> getThongTinPhim(@PathVariable String _id){
         return  iListPhimService.findById(_id);
     }
+
+    @GetMapping("lichchieu/{tinhThanh}")
+    List<ListPhim> getTinhThanh(@PathVariable String tinhThanh){
+        return  iListPhimService.findByTinhThanh(tinhThanh);
+    }
 }

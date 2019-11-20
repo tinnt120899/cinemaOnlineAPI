@@ -18,9 +18,10 @@ public class ListRapServiceImpl implements IListRapService {
     ListRapRepository listRapRepository;
 
     @Override
-    public List<ListRap> findByName(String heThongRap) {
-        return listRapRepository.findByName(heThongRap);
+    public List<ListRap> findByName(String heThongRap, String tinhThanh) {
+        return listRapRepository.findByName(heThongRap, tinhThanh);
     }
+
 
 
 }

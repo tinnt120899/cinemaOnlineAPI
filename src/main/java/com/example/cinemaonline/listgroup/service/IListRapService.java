@@ -9,6 +9,7 @@ import java.util.Optional;
 @Service
 public interface IListRapService {
 
-    List<ListRap> findByName(String heThongRap);
+    List<ListRap> findByName(String heThongRap, String tinhThanh);
 
+//    List<ListRap> findByTinhThanh(String tinhThanh);
 }

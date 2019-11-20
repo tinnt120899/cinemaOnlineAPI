@@ -26,4 +26,9 @@ public class ListPhimServiceImpl implements IListPhimService {
     public List<ListPhim> findById(String id) {
         return listPhimRepository.findById(id);
     }
+
+    @Override
+    public List<ListPhim> findByTinhThanh(String tinhThanh) {
+        return listPhimRepository.findByTinhThanh(tinhThanh);
+    }
 }

@@ -32,5 +32,9 @@ public class ListPhimRepository{
         return mongoTemplate.find(query, ListPhim.class);
     }
 
+    public List<ListPhim> findByTinhThanh(String tinhThanh) {
+        Query query= new Query().addCriteria(Criteria.where("tinhThanh").is(tinhThanh));
+        return mongoTemplate.find(query, ListPhim.class);
+    }
    
 }
