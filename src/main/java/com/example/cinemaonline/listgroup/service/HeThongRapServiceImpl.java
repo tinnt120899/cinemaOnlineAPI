@@ -1,5 +1,6 @@
 package com.example.cinemaonline.listgroup.service;
 
+
 import com.example.cinemaonline.listgroup.model.HeThongRap;
 import com.example.cinemaonline.listgroup.repository.HeThongRapRepository;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -20,6 +20,6 @@ public class HeThongRapController {
     List<HeThongRap> getAll(
             @RequestParam("tinhThanh") String tinhThanh
     ){
-        return  iHeThongRapService.findByName(tinhThanh);
+        return iHeThongRapService.findByName(tinhThanh);
     }
 }

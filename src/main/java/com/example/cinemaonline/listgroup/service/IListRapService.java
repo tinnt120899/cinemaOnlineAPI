@@ -11,5 +11,7 @@ public interface IListRapService {
 
     List<ListRap> findByName(String heThongRap, String tinhThanh);
 
+    List<ListRap> findById(String id);
+
 //    List<ListRap> findByTinhThanh(String tinhThanh);
 }

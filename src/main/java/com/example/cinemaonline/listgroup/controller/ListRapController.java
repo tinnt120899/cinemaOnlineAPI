@@ -22,4 +22,9 @@ public class ListRapController {
         return  iListRapService.findByName(heThongRap, tinhThanh);
     }
 
+    @RequestMapping("/{_id}")
+    List<ListRap> findById(@PathVariable("_id") String _id){
+        return iListRapService.findById(_id);
+    }
+
 }

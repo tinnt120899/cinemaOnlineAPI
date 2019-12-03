@@ -26,9 +26,10 @@ public class ListRapRepository{
         Query query= new Query().addCriteria(criteria);
         return mongoTemplate.find(query, ListRap.class);
     }
-//    public List<ListRap> findByTinhThanh(String tinhThanh) {
-//        Query query= new Query().addCriteria(Criteria.where("tinhThanh").is(tinhThanh));
-//        return mongoTemplate.find(query, ListRap.class);
-//    }
+
+    public List<ListRap> findById(String _id) {
+        Query query= new Query().addCriteria(Criteria.where("_id").is(_id));
+        return mongoTemplate.find(query, ListRap.class);
+    }
 
 }

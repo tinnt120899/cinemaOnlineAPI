@@ -2,22 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73199e41-5a43-4333-9dd9-9b1a6b65bfcd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/cinemaonline/listgroup/controller/HeThongRapController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/cinemaonline/listgroup/model/HeThongRap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/cinemaonline/listgroup/repository/HeThongRapRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/cinemaonline/listgroup/service/HeThongRapServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/cinemaonline/listgroup/service/IHeThongRapService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_2_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_2_1_RELEASE.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cinemaonline.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cinemaonline.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cinemaonline/listgroup/controller/HeThongRapController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cinemaonline/listgroup/controller/HeThongRapController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cinemaonline/listgroup/controller/ListRapController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cinemaonline/listgroup/controller/ListRapController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cinemaonline/listgroup/model/ListRap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cinemaonline/listgroup/model/ListRap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cinemaonline/listgroup/repository/ListRapRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cinemaonline/listgroup/repository/ListRapRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cinemaonline/listgroup/service/HeThongRapServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cinemaonline/listgroup/service/HeThongRapServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cinemaonline/listgroup/service/IListRapService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cinemaonline/listgroup/service/IListRapService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cinemaonline/listgroup/service/ListRapServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cinemaonline/listgroup/service/ListRapServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cinemaonline/tabset/controller/ListPhimController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cinemaonline/tabset/controller/ListPhimController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cinemaonline/tabset/model/ListPhim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cinemaonline/tabset/model/ListPhim.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cinemaonline/tabset/repository/ListPhimRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cinemaonline/tabset/repository/ListPhimRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cinemaonline/tabset/service/IListPhimService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cinemaonline/tabset/service/IListPhimService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cinemaonline/tabset/service/ListPhimServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cinemaonline/tabset/service/ListPhimServiceImpl.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,27 +39,34 @@
   </component>
   <component name="ProjectId" id="1SK2tIKxCoLB4Y8wC4s0aaRM77D" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/example/cinemaonline/listgroup" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/example/cinemaonline" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.cinemaonline.seatmap.model" />
       <recent name="com.example.cinemaonline.listgroup.service" />
       <recent name="com.example.cinemaonline.listgroup.repository" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Project\cinemaOnlineAPI\src\main\java\com\example\cinemaonline" />
       <recent name="E:\Project\cinemaonline\src\main\java\com\example\cinemaonline\listgroup" />
       <recent name="E:\Project\cinemaonline\src\main\java\com\example\cinemaonline" />
       <recent name="E:\Project\cinemaonline\src\main\resources" />
@@ -87,6 +88,7 @@
     <configuration name="CinemaonlineApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cinemaonline" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.cinemaonline.CinemaonlineApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -140,6 +142,18 @@
       <workItem from="1574057696226" duration="4259000" />
       <workItem from="1574130634873" duration="1745000" />
       <workItem from="1574153697751" duration="1534000" />
+      <workItem from="1574322620402" duration="303000" />
+      <workItem from="1574323191819" duration="1262000" />
+      <workItem from="1574387578357" duration="2080000" />
+      <workItem from="1574403571634" duration="667000" />
+      <workItem from="1574406969567" duration="749000" />
+      <workItem from="1575252297300" duration="795000" />
+      <workItem from="1575254307865" duration="6492000" />
+      <workItem from="1575276564471" duration="1268000" />
+      <workItem from="1575278982286" duration="1194000" />
+      <workItem from="1575280286980" duration="1288000" />
+      <workItem from="1575282056628" duration="78000" />
+      <workItem from="1575343766344" duration="858000" />
     </task>
     <servers />
   </component>

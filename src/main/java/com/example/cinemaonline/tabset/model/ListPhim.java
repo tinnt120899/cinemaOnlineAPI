@@ -14,6 +14,7 @@ public class ListPhim {
     private String thoiLuongChieu;
     private String srcImageSm;
     private String srcImageMd;
+    private String srcImageLg;
     private String trangThai;
     private String routeName;
     private ArrayList<String> suatChieu;
@@ -29,12 +30,13 @@ public class ListPhim {
     public ListPhim() {
     }
 
-    public ListPhim(ObjectId _id, String tenPhim, String thoiLuongChieu, String srcImageSm, String srcImageMd, String trangThai, String routeName, ArrayList<String> suatChieu, String ngayPhatHanh, String daoDien, String dienVien, String theLoai, String quocGiaSx, String noiDung, String linkTrailer, String tinhThanh) {
+    public ListPhim(ObjectId _id, String tenPhim, String thoiLuongChieu, String srcImageSm, String srcImageMd, String srcImageLg, String trangThai, String routeName, ArrayList<String> suatChieu, String ngayPhatHanh, String daoDien, String dienVien, String theLoai, String quocGiaSx, String noiDung, String linkTrailer, String tinhThanh) {
         this._id = _id;
         this.tenPhim = tenPhim;
         this.thoiLuongChieu = thoiLuongChieu;
         this.srcImageSm = srcImageSm;
         this.srcImageMd = srcImageMd;
+        this.srcImageLg = srcImageLg;
         this.trangThai = trangThai;
         this.routeName = routeName;
         this.suatChieu = suatChieu;
@@ -86,6 +88,14 @@ public class ListPhim {
 
     public void setSrcImageMd(String srcImageMd) {
         this.srcImageMd = srcImageMd;
+    }
+
+    public String getSrcImageLg() {
+        return srcImageLg;
+    }
+
+    public void setSrcImageLg(String srcImageLg) {
+        this.srcImageLg = srcImageLg;
     }
 
     public String getTrangThai() {
