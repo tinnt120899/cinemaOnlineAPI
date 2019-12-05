@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73199e41-5a43-4333-9dd9-9b1a6b65bfcd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_2_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_2_1_RELEASE.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cinemaonline.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cinemaonline.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cinemaonline/listgroup/controller/HeThongRapController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cinemaonline/listgroup/controller/HeThongRapController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cinemaonline/listgroup/controller/ListRapController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cinemaonline/listgroup/controller/ListRapController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cinemaonline/listgroup/repository/ListRapRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cinemaonline/listgroup/repository/ListRapRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cinemaonline/listgroup/service/HeThongRapServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cinemaonline/listgroup/service/HeThongRapServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cinemaonline/listgroup/service/IListRapService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cinemaonline/listgroup/service/IListRapService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cinemaonline/listgroup/service/ListRapServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cinemaonline/listgroup/service/ListRapServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cinemaonline/tabset/model/ListPhim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cinemaonline/tabset/model/ListPhim.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,6 +30,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1SK2tIKxCoLB4Y8wC4s0aaRM77D" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
@@ -60,10 +55,15 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.example.cinemaonline.seatmap.service" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.example.cinemaonline.seatmap.model" />
-      <recent name="com.example.cinemaonline.listgroup.service" />
-      <recent name="com.example.cinemaonline.listgroup.repository" />
+      <recent name="com.example.cinemaonline.Pages.news.service" />
+      <recent name="com.example.cinemaonline.Pages.news.repository" />
+      <recent name="com.example.cinemaonline.seatmap.controller" />
+      <recent name="com.example.cinemaonline.seatmap.service" />
+      <recent name="com.example.cinemaonline.seatmap.repository" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Project\cinemaOnlineAPI\src\main\java\com\example\cinemaonline" />
@@ -153,7 +153,13 @@
       <workItem from="1575278982286" duration="1194000" />
       <workItem from="1575280286980" duration="1288000" />
       <workItem from="1575282056628" duration="78000" />
-      <workItem from="1575343766344" duration="858000" />
+      <workItem from="1575343766344" duration="1460000" />
+      <workItem from="1575348401854" duration="5182000" />
+      <workItem from="1575373280525" duration="2599000" />
+      <workItem from="1575425424927" duration="2673000" />
+      <workItem from="1575434429348" duration="1461000" />
+      <workItem from="1575460697397" duration="3786000" />
+      <workItem from="1575511154320" duration="3912000" />
     </task>
     <servers />
   </component>

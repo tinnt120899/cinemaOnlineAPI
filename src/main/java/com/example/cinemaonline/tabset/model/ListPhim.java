@@ -10,6 +10,7 @@ import java.util.ArrayList;
 public class ListPhim {
     @Id
     private ObjectId _id;
+    private String idPhim;
     private String tenPhim;
     private String thoiLuongChieu;
     private String srcImageSm;
@@ -30,8 +31,9 @@ public class ListPhim {
     public ListPhim() {
     }
 
-    public ListPhim(ObjectId _id, String tenPhim, String thoiLuongChieu, String srcImageSm, String srcImageMd, String srcImageLg, String trangThai, String routeName, ArrayList<String> suatChieu, String ngayPhatHanh, String daoDien, String dienVien, String theLoai, String quocGiaSx, String noiDung, String linkTrailer, String tinhThanh) {
+    public ListPhim(ObjectId _id, String idPhim, String tenPhim, String thoiLuongChieu, String srcImageSm, String srcImageMd, String srcImageLg, String trangThai, String routeName, ArrayList<String> suatChieu, String ngayPhatHanh, String daoDien, String dienVien, String theLoai, String quocGiaSx, String noiDung, String linkTrailer, String tinhThanh) {
         this._id = _id;
+        this.idPhim = idPhim;
         this.tenPhim = tenPhim;
         this.thoiLuongChieu = thoiLuongChieu;
         this.srcImageSm = srcImageSm;
@@ -56,6 +58,14 @@ public class ListPhim {
 
     public void set_id(ObjectId _id) {
         this._id = _id;
+    }
+
+    public String getIdPhim() {
+        return idPhim;
+    }
+
+    public void setIdPhim(String idPhim) {
+        this.idPhim = idPhim;
     }
 
     public String getTenPhim() {
