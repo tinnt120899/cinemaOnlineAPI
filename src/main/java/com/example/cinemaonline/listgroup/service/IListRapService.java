@@ -1,17 +1,27 @@
 package com.example.cinemaonline.listgroup.service;
 
+import com.example.cinemaonline.Admin.constant.PagingResponse;
+import com.example.cinemaonline.Admin.exception.ServiceException;
 import com.example.cinemaonline.listgroup.model.ListRap;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
 
-@Service
+
 public interface IListRapService {
 
     List<ListRap> findByName(String heThongRap, String tinhThanh);
 
-    List<ListRap> findById(String id);
+    ListRap findById(String id) throws ServiceException;
 
-//    List<ListRap> findByTinhThanh(String tinhThanh);
+    PagingResponse<ListRap> findAll(int pageNumber, int pageSize);
+
+    PagingResponse<ListRap> searchByKey(int pageNumber, int pageSize, String searchKey) ;
+
+    ListRap edit(ListRap ListRap) throws ServiceException;
+
+    ListRap insert(ListRap ListRap) throws ServiceException;
+
+    void delete(ListRap ListRap);
 }

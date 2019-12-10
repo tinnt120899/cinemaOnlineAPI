@@ -1,6 +1,4 @@
-package com.example.cinemaonline.Pages.news.model;
-
-
+package com.example.cinemaonline.Admin.entity;
 
 import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;

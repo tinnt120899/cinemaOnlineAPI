@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73199e41-5a43-4333-9dd9-9b1a6b65bfcd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cinemaonline/tabset/model/ListPhim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cinemaonline/tabset/model/ListPhim.java" afterDir="false" />
-    </list>
+    <list default="true" id="73199e41-5a43-4333-9dd9-9b1a6b65bfcd" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +27,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1SK2tIKxCoLB4Y8wC4s0aaRM77D" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="PropertiesComponent">
@@ -42,7 +39,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/example/cinemaonline" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/example/cinemaonline/Admin/repository" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -52,24 +49,25 @@
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="com.example.cinemaonline.seatmap.service" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.example.cinemaonline.Pages.news.service" />
-      <recent name="com.example.cinemaonline.Pages.news.repository" />
-      <recent name="com.example.cinemaonline.seatmap.controller" />
-      <recent name="com.example.cinemaonline.seatmap.service" />
+      <recent name="com.example.cinemaonline.Admin.controller" />
+      <recent name="com.example.cinemaonline.Admin.service" />
       <recent name="com.example.cinemaonline.seatmap.repository" />
+      <recent name="com.example.cinemaonline.tabset.repository" />
+      <recent name="com.example.cinemaonline.listgroup.repository" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Project\cinemaOnlineAPI\src\main\java\com\example\cinemaonline\Admin\repository" />
+      <recent name="E:\Project\cinemaOnlineAPI\src\main\java\com\example\cinemaonline\Admin" />
       <recent name="E:\Project\cinemaOnlineAPI\src\main\java\com\example\cinemaonline" />
       <recent name="E:\Project\cinemaonline\src\main\java\com\example\cinemaonline\listgroup" />
       <recent name="E:\Project\cinemaonline\src\main\java\com\example\cinemaonline" />
-      <recent name="E:\Project\cinemaonline\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -159,7 +157,20 @@
       <workItem from="1575425424927" duration="2673000" />
       <workItem from="1575434429348" duration="1461000" />
       <workItem from="1575460697397" duration="3786000" />
-      <workItem from="1575511154320" duration="3912000" />
+      <workItem from="1575511154320" duration="4511000" />
+      <workItem from="1575552824843" duration="2937000" />
+      <workItem from="1575613554439" duration="7954000" />
+      <workItem from="1575692756636" duration="4268000" />
+      <workItem from="1575708775892" duration="3676000" />
+      <workItem from="1575727500545" duration="3046000" />
+      <workItem from="1575770689926" duration="10163000" />
+      <workItem from="1575791655153" duration="1494000" />
+      <workItem from="1575795372284" duration="10984000" />
+      <workItem from="1575858332416" duration="2164000" />
+      <workItem from="1575862284542" duration="11241000" />
+      <workItem from="1575894724526" duration="3467000" />
+      <workItem from="1575914180485" duration="11164000" />
+      <workItem from="1575960700303" duration="1601000" />
     </task>
     <servers />
   </component>
@@ -178,5 +189,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
   </component>
 </project>

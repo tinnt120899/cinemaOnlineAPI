@@ -14,12 +14,11 @@ public class ListRap {
     private String diaChi;
     private String srcImage;
     private String routeName;
-    private String tinhThanh;
 
     public ListRap() {
     }
 
-    public ListRap(ObjectId _id, String cumRap, String heThongRap, String tenRap, String diaChi, String srcImage, String routeName, String tinhThanh) {
+    public ListRap(ObjectId _id, String cumRap, String heThongRap, String tenRap, String diaChi, String srcImage, String routeName) {
         this._id = _id;
         this.cumRap = cumRap;
         this.heThongRap = heThongRap;
@@ -27,7 +26,6 @@ public class ListRap {
         this.diaChi = diaChi;
         this.srcImage = srcImage;
         this.routeName = routeName;
-        this.tinhThanh = tinhThanh;
     }
 
     public String get_id() {
@@ -84,14 +82,6 @@ public class ListRap {
 
     public void setRouteName(String routeName) {
         this.routeName = routeName;
-    }
-
-    public String getTinhThanh() {
-        return tinhThanh;
-    }
-
-    public void setTinhThanh(String tinhThanh) {
-        this.tinhThanh = tinhThanh;
     }
 }
 
