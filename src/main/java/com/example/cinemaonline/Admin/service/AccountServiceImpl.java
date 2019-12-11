@@ -9,6 +9,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class AccountServiceImpl implements IAccountService{
 	private String error;
@@ -56,7 +58,7 @@ public class AccountServiceImpl implements IAccountService{
 
 	@Override
 	public Account insert(Account Account) throws ServiceException {
-		if(findByMaOrTen(Account.getId(), Account.getUsername(), Account.getEmail()) != null) {
+		if(findByMaOrTen(Account.getUsername(), Account.getEmail()) != null) {
 			throw new ServiceException(CategoryErrorEnum.TIN_TUC_EXISTED.getDescription(), HttpStatus.NOT_ACCEPTABLE);
 		}
 		return iAccountRepository.insert(Account);
@@ -68,12 +70,12 @@ public class AccountServiceImpl implements IAccountService{
 	}
 
 
-	public Account findByMaOrTen(String ma, String ten, String email) {
-		return iAccountRepository.findByMaOrTen(ma, ten, email);
+	public Account findByMaOrTen(String ten, String email) {
+		return iAccountRepository.findByMaOrTen(ten, email);
 	}
 
 
-	public Account checkLogin(String ma, String ten) {
-		return iAccountRepository.checkLogin(ma, ten);
+	public List<Account> checkLogin(String user, String pass) {
+		return iAccountRepository.checkLogin(user, pass);
 	}
 }

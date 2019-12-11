@@ -13,4 +13,5 @@ public interface APIConstant {
 	String SEAT_MAP = LIST_PHIM + "/seatmap";
 
 	String ACCOUNT = BASE_API + "/account";
+	Boolean LOGIN = false;
 }

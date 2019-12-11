@@ -11,6 +11,7 @@ public class Account {
     private String id;
     private String ten;
     private String email;
+    private String phoneNumber;
     private String username;
     private String password;
     private Boolean admin;
@@ -18,11 +19,12 @@ public class Account {
     public Account() {
     }
 
-    public Account(ObjectId _id, String id, String ten, String email, String username, String password, Boolean admin) {
+    public Account(ObjectId _id, String id, String ten, String email, String phoneNumber, String username, String password, Boolean admin) {
         this._id = _id;
         this.id = id;
         this.ten = ten;
         this.email = email;
+        this.phoneNumber = phoneNumber;
         this.username = username;
         this.password = password;
         this.admin = admin;
@@ -58,6 +60,14 @@ public class Account {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
     }
 
     public String getUsername() {

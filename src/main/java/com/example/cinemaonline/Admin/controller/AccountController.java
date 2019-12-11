@@ -11,6 +11,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
+import java.util.List;
 
 @RestController
 @RequestMapping(APIConstant.ACCOUNT)
@@ -26,9 +27,11 @@ public class AccountController {
 	}
 
 	@GetMapping("/signin")
-	public Account checkLogin(@RequestParam("username") String user,
-							  @RequestParam("password") String pass) throws ServiceException {
-		return iAccountService.checkLogin(user, pass);
+	List<Account> getAll(
+			@RequestParam("username") String username,
+			@RequestParam("password") String password
+	){
+		return  iAccountService.checkLogin(username, password);
 	}
 
 	@GetMapping()

@@ -75,22 +75,21 @@ public class AccountRepositoryImpl implements IAccountRepository{
     }
 
     @Override
-    public Account findByMaOrTen(String maSo, String ten, String email) {
-        Criteria maCond = Criteria.where("id").is(maSo);
+    public Account findByMaOrTen( String ten, String email) {
         Criteria tenCond = Criteria.where("username").is(ten);
         Criteria emailCond = Criteria.where("email").is(email);
-        Criteria summary = new Criteria().orOperator(maCond, tenCond, emailCond);
+        Criteria summary = new Criteria().orOperator(tenCond, emailCond);
         Query query= new Query(summary);
         return mongoTemplate.findOne(query, Account.class);
     }
 
     @Override
-    public Account checkLogin(String maSo, String ten) {
-        Criteria maCond = Criteria.where("id").is(maSo);
-        Criteria tenCond = Criteria.where("username").is(ten);
-        Criteria summary = new Criteria().andOperator(maCond, tenCond);
-        Query query= new Query(summary);
-        return mongoTemplate.findOne(query, Account.class);
+    public List<Account> checkLogin(String user, String pass) {
+        Criteria criteria = new Criteria().andOperator(
+                Criteria.where("username").is(user),
+                Criteria.where("password").is(pass));
+        Query query= new Query().addCriteria(criteria);
+        return mongoTemplate.find(query, Account.class);
     }
 
     @Override

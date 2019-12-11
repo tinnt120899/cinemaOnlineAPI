@@ -4,6 +4,8 @@ import com.example.cinemaonline.Admin.constant.PagingResponse;
 import com.example.cinemaonline.Admin.entity.Account;
 import com.example.cinemaonline.Admin.exception.ServiceException;
 
+import java.util.List;
+
 public interface IAccountService {
 	
 	Account findById(String id) throws ServiceException;
@@ -18,7 +20,7 @@ public interface IAccountService {
 
 	void delete(Account Account);
 
-	Account checkLogin (String ma, String ten);
+	List<Account> checkLogin (String ma, String ten);
 	
 	
 }

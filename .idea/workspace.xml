@@ -39,7 +39,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/example/cinemaonline/Admin/repository" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/example/cinemaonline/Pages/sentmail" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -63,11 +63,11 @@
       <recent name="com.example.cinemaonline.listgroup.repository" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Project\cinemaOnlineAPI\src\main\java\com\example\cinemaonline\Pages\sentmail" />
       <recent name="E:\Project\cinemaOnlineAPI\src\main\java\com\example\cinemaonline\Admin\repository" />
       <recent name="E:\Project\cinemaOnlineAPI\src\main\java\com\example\cinemaonline\Admin" />
       <recent name="E:\Project\cinemaOnlineAPI\src\main\java\com\example\cinemaonline" />
       <recent name="E:\Project\cinemaonline\src\main\java\com\example\cinemaonline\listgroup" />
-      <recent name="E:\Project\cinemaonline\src\main\java\com\example\cinemaonline" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -171,6 +171,9 @@
       <workItem from="1575894724526" duration="3467000" />
       <workItem from="1575914180485" duration="11164000" />
       <workItem from="1575960700303" duration="1601000" />
+      <workItem from="1575974735598" duration="13961000" />
+      <workItem from="1576018393787" duration="1519000" />
+      <workItem from="1576027982172" duration="580000" />
     </task>
     <servers />
   </component>
